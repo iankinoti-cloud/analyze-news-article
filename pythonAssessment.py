@@ -49,12 +49,18 @@ def calculate_average_word_length(text):
 
 def count_paragraphs(text):
     """Return the number of paragraphs in `text`, separated by blank lines."""
+    if not text.strip():
+        return 1
+
     paragraphs = [p for p in text.split("\n\n") if p.strip()]
     return len(paragraphs)
 
 
 def count_sentences(text):
     """Return the number of sentences in `text`."""
+    if not text.strip():
+        return 1
+
     fragments = re.split(r"[.!?]+", text)
     count = 0
     for fragment in fragments:
