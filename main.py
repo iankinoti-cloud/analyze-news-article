@@ -1,6 +1,6 @@
 """Demo script: run text analysis on the sample news article."""
 
-from text_analysis import (
+from pythonAssessment import (
     count_specific_word,
     identify_most_common_word,
     calculate_average_word_length,

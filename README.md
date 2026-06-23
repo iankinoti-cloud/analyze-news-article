@@ -1,4 +1,4 @@
-# 📰 Analyze News Article
+# Analyze News Article
 
 A lean Python toolkit that rips a news article apart and hands you the numbers that matter — word frequency, sentence rhythm, paragraph structure, and more. Built for text analysis pipelines that need fast, dependency-free insights.
 
@@ -35,7 +35,7 @@ Sentence count: 48
 ## Using it on your own text
 
 ```python
-from text_analysis import (
+from pythonAssessment import (
     count_specific_word,
     identify_most_common_word,
     calculate_average_word_length,
@@ -57,9 +57,9 @@ print(count_sentences(text))
 
 ```
 .
-├── article.txt        # sample news article
-├── main.py             # demo runner
-├── text_analysis.py    # core analysis functions
+├── article.txt          # sample news article
+├── main.py              # demo runner
+├── pythonAssessment.py  # core analysis functions
 └── README.md
 ```
 
